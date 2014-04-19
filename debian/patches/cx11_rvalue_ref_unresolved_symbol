@@ -1,0 +1,14 @@
+--- a/include/log4cplus/config.hxx
++++ b/include/log4cplus/config.hxx
+@@ -98,9 +98,9 @@
+ #  define __has_feature(X) 0
+ #endif
+ 
+-#if (defined (_MSC_VER) && _MSC_VER >= 1600) \
++#if ((defined (_MSC_VER) && _MSC_VER >= 1600) \
+     || defined (__GXX_EXPERIMENTAL_CXX0X__) \
+-    || __cplusplus >= 201103L
++    || __cplusplus >= 201103L) && defined(LOG4CPLUS_HAVE_CXX11_ATOMICS)
+ #  define LOG4CPLUS_HAVE_CXX11_SUPPORT
+ #endif
+ 

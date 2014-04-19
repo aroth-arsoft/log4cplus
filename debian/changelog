@@ -1,0 +1,89 @@
+log4cplus (1.1.2+0.1-ubuntu1~aroth~ppa2~saucy1) saucy; urgency=low
+
+  * update to version 1.1.2-rc2
+  * enable C++11 features
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Thu, 19 Sep 2013 13:10:21 +0200
+
+log4cplus (1.1.1+0.1-ubuntu1~aroth~ppa1) raring; urgency=low
+
+  * update to version 1.1.1
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Tue, 11 Jun 2013 17:27:52 +0200
+
+log4cplus (1.1.1+0rc1-0ubuntu1~aroth~ppa3) quantal; urgency=low
+
+  * fixed some debian package issues by merging in the lastest debian package
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Wed, 09 Jan 2013 19:28:13 +0100
+
+log4cplus (1.1.1+0rc1-0ubuntu1~aroth~ppa2) quantal; urgency=low
+
+  * fixed headers
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Wed, 09 Jan 2013 09:03:31 +0100
+
+log4cplus (1.1.1+0rc1-0ubuntu1~aroth~ppa1) quantal; urgency=low
+
+  * new upstream version 1.1.1-rc1
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Wed, 09 Jan 2013 08:03:21 +0100
+
+log4cplus (1.0.4-2) unstable; urgency=low
+
+  * Convert to using debhelper
+
+ -- Andrew Pollock <apollock@debian.org>  Tue, 24 Jan 2012 21:54:01 -0800
+
+log4cplus (1.0.4-1ubuntu1~aroth~ppa6) oneiric; urgency=low
+
+  * fixed depends of dev and dbg package 
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Thu, 17 Nov 2011 06:37:37 +0100
+
+log4cplus (1.0.4-1ubuntu1~aroth~ppa5) oneiric; urgency=low
+
+  * install missing files
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Tue, 15 Nov 2011 08:03:07 +0100
+
+log4cplus (1.0.4-1ubuntu1~aroth~ppa4) oneiric; urgency=low
+
+  * fill packages with some content 
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Tue, 15 Nov 2011 07:55:42 +0100
+
+log4cplus (1.0.4-1ubuntu1~aroth~ppa3) oneiric; urgency=low
+
+  * install log4cplus with log4cplus-dev
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Tue, 15 Nov 2011 06:46:17 +0100
+
+log4cplus (1.0.4-1ubuntu1~aroth~ppa2) oneiric; urgency=low
+
+  * a little bit of house keeping
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Tue, 15 Nov 2011 06:36:37 +0100
+
+log4cplus (1.0.4-1ubuntu1~aroth~ppa1) oneiric; urgency=low
+
+  * first attempt to build on ubuntu
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Mon, 14 Nov 2011 07:23:09 +0100
+
+log4cplus (1.0.4-1) unstable; urgency=low
+
+  [ Eric Kom ]
+  * New upstream release
+  * Fix the download upstream source link for debian/watch file.
+
+  [ Andrew Pollock ]
+  * Generally clean up and make Lintian-clean
+
+ -- Andrew Pollock <apollock@debian.org>  Wed, 18 Jan 2012 22:38:12 -0800
+
+log4cplus (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #578387)
+
+ -- Daigo Moriwaki <daigo@debian.org>  Fri, 16 Apr 2010 17:46:34 +0900

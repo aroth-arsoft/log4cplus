@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_strip:
+	dh_strip --dbg-package=liblog4cplus-dbg
+
+override_dh_install:
+	sed -i "/dependency_libs/ s/'.*'/''/" `find . -name '*.la'`
+	dh_install
+
+override_dh_auto_configure:
+	dh_auto_configure -- LDFLAGS="$(LDFLAGS) -Wl,-z,defs -Wl,--as-needed -lpthread"
