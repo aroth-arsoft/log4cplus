@@ -1,4 +1,10 @@
-log4cplus (1.1.2+0.1-ubuntu1~aroth~ppa2~saucy1) saucy; urgency=low
+log4cplus (1.1.2+0.1-ubuntu1~aroth~ppa3) saucy; urgency=low
+
+  * prepare for trusty
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Sat, 19 Apr 2014 17:55:25 +0200
+
+log4cplus (1.1.2+0.1-ubuntu1~aroth~ppa2) saucy; urgency=low
 
   * update to version 1.1.2-rc2
   * enable C++11 features
