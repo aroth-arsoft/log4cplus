@@ -13,6 +13,7 @@ Package: liblog4cplus
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: liblog4cplus-1.0-4
 Description: C++ logging API modeled after the Java log4j API - shared library
  log4cplus is a simple to use C++ logging API providing thread-safe,
  flexible, and arbitrarily granular control over log management and
