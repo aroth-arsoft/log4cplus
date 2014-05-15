@@ -1,6 +1,6 @@
 --- a/include/log4cplus/config.hxx
 +++ b/include/log4cplus/config.hxx
-@@ -98,9 +98,9 @@
+@@ -98,14 +98,14 @@
  #  define __has_feature(X) 0
  #endif
  
@@ -10,5 +10,12 @@
 -    || __cplusplus >= 201103L
 +    || __cplusplus >= 201103L) && defined(LOG4CPLUS_HAVE_CXX11_ATOMICS)
  #  define LOG4CPLUS_HAVE_CXX11_SUPPORT
+ #endif
+ 
+-#if defined (LOG4CPLUS_HAVE_CXX11_SUPPORT) \
+-    || __has_feature (cxx_rvalue_references)
++#if (defined (LOG4CPLUS_HAVE_CXX11_SUPPORT) \
++    || __has_feature (cxx_rvalue_references)) && defined(LOG4CPLUS_HAVE_CXX11_ATOMICS)
+ #  define LOG4CPLUS_HAVE_RVALUE_REFS
  #endif
  
