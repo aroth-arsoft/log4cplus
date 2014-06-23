@@ -1,3 +1,9 @@
+log4cplus (1.1.99+1.2.0rc2-aroth~ppa1) trusty; urgency=medium
+
+  * update to release candidate 1.20 rc2
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Mon, 23 Jun 2014 07:32:30 +0200
+
 log4cplus (1.1.2+0.1-ubuntu1~aroth~ppa5) trusty; urgency=medium
 
   * fixed unresolved symbols when used with clang

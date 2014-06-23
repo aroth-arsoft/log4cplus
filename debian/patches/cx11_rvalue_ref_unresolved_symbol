@@ -18,4 +18,3 @@
 +    || __has_feature (cxx_rvalue_references)) && defined(LOG4CPLUS_HAVE_CXX11_ATOMICS)
  #  define LOG4CPLUS_HAVE_RVALUE_REFS
  #endif
- 
