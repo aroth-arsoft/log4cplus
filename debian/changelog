@@ -1,6 +1,12 @@
+log4cplus (1.1.99+1.2.0rc3-aroth~ppa1) utopic; urgency=medium
+
+  * new upstream release 1.2.0-rc3
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Mon, 16 Feb 2015 06:59:55 +0100
+
 log4cplus (1.1.99+1.2.0rc2-aroth~ppa1) trusty; urgency=medium
 
-  * update to release candidate 1.20 rc2
+  * update to release candidate 1.2.0-rc2
 
  -- Andreas Roth <aroth@arsoft-online.com>  Mon, 23 Jun 2014 07:32:30 +0200
 
