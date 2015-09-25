@@ -1,3 +1,9 @@
+log4cplus (1.1.99+1.2.0rc3-aroth~ppa2) wily; urgency=medium
+
+  * rebuild
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Fri, 25 Sep 2015 07:34:45 +0200
+
 log4cplus (1.1.99+1.2.0rc3-aroth~ppa1) utopic; urgency=medium
 
   * new upstream release 1.2.0-rc3
